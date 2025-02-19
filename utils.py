@@ -31,7 +31,7 @@ def extract_uppercase_letters(text: str) -> Optional[List[str]]:
 
 
 if __name__ == "__main__":
-    with open("./distill-EQ-IQ.jsonl", "r", encoding="utf-8") as f:
+    with open("./dataset/distill-EQ-IQ.jsonl", "r", encoding="utf-8") as f:
         data = f.readlines()
 
     EQ_results = []

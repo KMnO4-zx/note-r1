@@ -40,7 +40,7 @@ class APIModel:
                 )
                 reasoning_content = response.choices[0].message.reasoning_content
                 content = response.choices[0].message.content
-                return f"<think>\n{reasoning_content}\\n{content}"
+                return f"<think>\n{reasoning_content}</think>\n{content}"
             
             except APITimeoutError:
                 retry_count += 1
@@ -66,7 +66,7 @@ if __name__ == "__main__":
     # 单次交互示例
     with open('./dataset/EQ-IQ.jsonl', 'r', encoding='utf-8') as f:
         data = f.readlines()
-    for i in tqdm(range(116, len(data))):
+    for i in tqdm(range(0, len(data))):
         item = json.loads(data[i])
         question_prompt = model.generate_prompt(item)
         response = model.get_compention(question_prompt, system_prompt)

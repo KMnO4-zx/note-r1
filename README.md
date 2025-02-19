@@ -20,4 +20,4 @@
 | Qwen2.5-32B-Instruct          | 0.650    | 0.7875   | 0.7417           |
 | DeepSeek-R1-Distill-Qwen-7B   | 0.675    | 0.30     | 0.425            |
 | DeepSeek-R1-Distill-Qwen-14B  | 0.625    | 0.725    | 0.6917           |
-| DeepSeek-R1-671B              | 0.90     | 0.895    | 0.898            |
+| DeepSeek-R1-671B              | 0.90     | 0.947    | 0.915            |
