@@ -18,6 +18,7 @@
 | Qwen2.5-7B-Instruct           | 0.50     | 0.6125   | 0.575            |
 | Qwen2.5-14B-Instruct          | 0.525    | 0.750    | 0.6750           |
 | Qwen2.5-32B-Instruct          | 0.650    | 0.7875   | 0.7417           |
+| Qwen2.5-72B-Instruct          | 0.775    | 0.825    | 0.8083           |
 | DeepSeek-R1-Distill-Qwen-7B   | 0.675    | 0.30     | 0.425            |
 | DeepSeek-R1-Distill-Qwen-14B  | 0.625    | 0.725    | 0.6917           |
 | DeepSeek-R1-671B              | 0.90     | 0.947    | 0.915            |

@@ -9,9 +9,9 @@ xunfei: https://maas-api.cn-huabei-1.xf-yun.com/v1/chat/completions
 """
 
 task_cfg = TaskConfig(
-    model='Pro/deepseek-ai/DeepSeek-R1',
+    model='Qwen/Qwen2.5-72B-Instruct',
     api_url='https://api.siliconflow.cn/v1/chat/completions',
-    api_key='sk-ncofaqvaluyksxsaxxageitypqxdmfnnnwqqhrozbylvjtdb',
+    api_key='xxxx',
     eval_type='service',
     datasets=['iquiz'],
     generation_config={
